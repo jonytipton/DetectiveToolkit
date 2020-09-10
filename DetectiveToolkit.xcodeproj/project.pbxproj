@@ -10,10 +10,18 @@
 		ABB3C14C2509A0F400483A66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C14B2509A0F400483A66 /* AppDelegate.swift */; };
 		ABB3C14E2509A0F400483A66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */; };
 		ABB3C1502509A0F400483A66 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C14F2509A0F400483A66 /* FirstViewController.swift */; };
-		ABB3C1522509A0F400483A66 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C1512509A0F400483A66 /* SecondViewController.swift */; };
 		ABB3C1552509A0F400483A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB3C1532509A0F400483A66 /* Main.storyboard */; };
 		ABB3C1572509A0F500483A66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB3C1562509A0F500483A66 /* Assets.xcassets */; };
 		ABB3C15A2509A0F500483A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB3C1582509A0F500483A66 /* LaunchScreen.storyboard */; };
+		ABB3C1642509B1B200483A66 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C1632509B1B200483A66 /* myTabBarController.swift */; };
+		ABB3C1682509B8B100483A66 /* researchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C1672509B8B100483A66 /* researchViewController.swift */; };
+		ABB3C17F2509C54B00483A66 /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C17A2509C54B00483A66 /* ToDoList.xcdatamodeld */; };
+		ABB3C1802509C54B00483A66 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C17C2509C54B00483A66 /* ToDo.swift */; };
+		ABB3C1812509C54B00483A66 /* ToDoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C17D2509C54B00483A66 /* ToDoDetailsViewController.swift */; };
+		ABB3C1822509C54B00483A66 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C17E2509C54B00483A66 /* ToDoTableViewController.swift */; };
+		ABB3C1842509C72400483A66 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C1832509C72400483A66 /* AddToDoViewController.swift */; };
+		ABB3C1862509D85C00483A66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C1852509D85C00483A66 /* ViewController.swift */; };
+		ABB3C18D2509DA7200483A66 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ABB3C18C2509DA7200483A66 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +29,19 @@
 		ABB3C14B2509A0F400483A66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ABB3C14F2509A0F400483A66 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		ABB3C1512509A0F400483A66 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		ABB3C1542509A0F400483A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABB3C1562509A0F500483A66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB3C1592509A0F500483A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB3C15B2509A0F500483A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB3C1632509B1B200483A66 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
+		ABB3C1672509B8B100483A66 /* researchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = researchViewController.swift; path = "/Users/jonathan/Documents/Boise State Semesters/2020 FALL/CS402/Assignment 1/DetectiveToolkit/DetectiveToolkit/researchViewController.swift"; sourceTree = "<absolute>"; };
+		ABB3C17B2509C54B00483A66 /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		ABB3C17C2509C54B00483A66 /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		ABB3C17D2509C54B00483A66 /* ToDoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoDetailsViewController.swift; sourceTree = "<group>"; };
+		ABB3C17E2509C54B00483A66 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		ABB3C1832509C72400483A66 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddToDoViewController.swift; path = ../DetectiveToolkit.xcodeproj/AddToDoViewController.swift; sourceTree = "<group>"; };
+		ABB3C1852509D85C00483A66 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABB3C18C2509DA7200483A66 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 		ABB3C13F2509A0F400483A66 = {
 			isa = PBXGroup;
 			children = (
+				ABB3C18C2509DA7200483A66 /* Resnet50.mlmodel */,
 				ABB3C14A2509A0F400483A66 /* DetectiveToolkit */,
 				ABB3C1492509A0F400483A66 /* Products */,
 			);
@@ -58,11 +75,18 @@
 		ABB3C14A2509A0F400483A66 /* DetectiveToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				ABB3C17C2509C54B00483A66 /* ToDo.swift */,
+				ABB3C17D2509C54B00483A66 /* ToDoDetailsViewController.swift */,
+				ABB3C17A2509C54B00483A66 /* ToDoList.xcdatamodeld */,
+				ABB3C17E2509C54B00483A66 /* ToDoTableViewController.swift */,
 				ABB3C14B2509A0F400483A66 /* AppDelegate.swift */,
+				ABB3C1832509C72400483A66 /* AddToDoViewController.swift */,
+				ABB3C1672509B8B100483A66 /* researchViewController.swift */,
+				ABB3C1852509D85C00483A66 /* ViewController.swift */,
 				ABB3C14D2509A0F400483A66 /* SceneDelegate.swift */,
 				ABB3C14F2509A0F400483A66 /* FirstViewController.swift */,
-				ABB3C1512509A0F400483A66 /* SecondViewController.swift */,
 				ABB3C1532509A0F400483A66 /* Main.storyboard */,
+				ABB3C1632509B1B200483A66 /* myTabBarController.swift */,
 				ABB3C1562509A0F500483A66 /* Assets.xcassets */,
 				ABB3C1582509A0F500483A66 /* LaunchScreen.storyboard */,
 				ABB3C15B2509A0F500483A66 /* Info.plist */,
@@ -141,8 +165,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB3C1522509A0F400483A66 /* SecondViewController.swift in Sources */,
+				ABB3C18D2509DA7200483A66 /* Resnet50.mlmodel in Sources */,
 				ABB3C1502509A0F400483A66 /* FirstViewController.swift in Sources */,
+				ABB3C1822509C54B00483A66 /* ToDoTableViewController.swift in Sources */,
+				ABB3C1842509C72400483A66 /* AddToDoViewController.swift in Sources */,
+				ABB3C1802509C54B00483A66 /* ToDo.swift in Sources */,
+				ABB3C1862509D85C00483A66 /* ViewController.swift in Sources */,
+				ABB3C17F2509C54B00483A66 /* ToDoList.xcdatamodeld in Sources */,
+				ABB3C1682509B8B100483A66 /* researchViewController.swift in Sources */,
+				ABB3C1642509B1B200483A66 /* myTabBarController.swift in Sources */,
+				ABB3C1812509C54B00483A66 /* ToDoDetailsViewController.swift in Sources */,
 				ABB3C14C2509A0F400483A66 /* AppDelegate.swift in Sources */,
 				ABB3C14E2509A0F400483A66 /* SceneDelegate.swift in Sources */,
 			);
@@ -342,6 +374,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABB3C17A2509C54B00483A66 /* ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABB3C17B2509C54B00483A66 /* ToDoList.xcdatamodel */,
+			);
+			currentVersion = ABB3C17B2509C54B00483A66 /* ToDoList.xcdatamodel */;
+			path = ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = ABB3C1402509A0F400483A66 /* Project object */;
 }

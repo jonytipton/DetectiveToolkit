@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DetectiveToolkit.xcodeproj">
+      location = "group:../Resnet50.mlmodel">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
